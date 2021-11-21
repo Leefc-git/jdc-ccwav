@@ -1,2 +1,8 @@
 # nvjdc-ccawv
 链接nvjdc和ccwav
+先安装好青龙和nvjdc顺便把ccwav库拉好
+进入青龙容器安装php，并用nginx映射出一个空余端口给php用，同时打开php short_tag
+可以正常访问php文件后把文件丢到青龙容器里
+wxpusher设置好回调。
+按需修改我的文件，比如自己文件的对应文件夹，
+不清楚的联系QQ1176007248
