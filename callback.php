@@ -8,7 +8,7 @@ $json = file_get_contents("php://input");
 $data = json_decode($json, true);
 
 foreach($data as $value) {
-  if ($value[appId] == 14200){ //修改这里为你的应用id
+  if ($value[appId] == your_appid){ //your_appid修改这里为你的应用id
     //调取登录的jdck
     $file = file("/ql/db/env.db");//数据库路径
     $created_num = 0;
