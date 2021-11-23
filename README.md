@@ -1,4 +1,4 @@
-#一个用来自动绑定wxpusher和京东pt_pin的php文件
+#一个用来自动绑定wxpusher uid和京东pt_pin的php文件
 一对一推送
 
 #食用方法
