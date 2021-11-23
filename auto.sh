@@ -19,4 +19,5 @@ cp nvjdc-ccwav/callback.conf /etc/nginx/conf.d/
 cp nvjdc-ccwav/CK_WxPusherUid.json scripts/ccwav_QLScript2/
 chmod 777 scripts/ccwav_QLScript2/CK_WxPusherUid.json
 
-echo "部署完成，请重启青龙容器docker restart qinglong"
+echo "部署完成，请退出容器重启青龙容器(docker restart qinglong)"
+exit
