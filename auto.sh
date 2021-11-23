@@ -12,10 +12,11 @@ read -t 30 -p "克隆完成，请输入您的wxpuher应用Id:" appid
 
 sed -i -e "s/your_appid/${appid}/" nvjdc-ccwav/callback.php
 
-mkdir callback 
+mkdir callback
 mv nvjdc-ccwav/callback.php callback/
 mv nvjdc-ccwav/index.php callback/
 mv nvjdc-ccwav/callback.conf /etc/nginx/conf.d/
 mv nvjdc-ccwav/CK_WxPusherUid.json scripts/ccwav_QLScript2/
+chmod 777 scripts/ccwav_QLScript2/CK_WxPusherUid.json
 
 echo "部署完成，请重启青龙容器docker restart qinglong"
