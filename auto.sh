@@ -8,7 +8,7 @@ echo "php安装完成，开始克隆仓库"
 
 git clone https://github.com/Leefc-git/nvjdc-ccwav.git
 
-read -t 30 -p "克隆完成，请输入您的wxpuher应用Id:" appid
+read -t 30 -p "克隆完成，请输入您的wxpusher应用Id:" appid
 
 sed -i -e "s/your_appid/${appid}/" nvjdc-ccwav/callback.php
 
