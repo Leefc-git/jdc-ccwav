@@ -26,7 +26,7 @@ wxpusher创建应用填入回调地址并记好你的应用id
 
 http://你的ip:5702/callback.php
 
-全部部署好并拉取ccwav库以后进入青龙容器
+全部部署好并拉取ccwav库(记得青龙里配置token)以后进入青龙容器
 
 docker exec -it qinglong bash
 
