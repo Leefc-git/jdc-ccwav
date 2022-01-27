@@ -20,7 +20,7 @@ foreach($data as $value) {
       if ($created < $created_num) {
       } else {
         $created_num = $created;
-        $pt_pin_head = substr($file[$i],strpos($file[$i],';pt_pin=')+8);
+        $pt_pin_head = substr($file[$i],strpos($file[$i],'pt_pin=')+7);
         $pt_pin = substr($pt_pin_head,0,strpos($pt_pin_head,';'));
 
       }
