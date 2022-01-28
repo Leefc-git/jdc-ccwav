@@ -16,8 +16,8 @@ mkdir callback
 cp nvjdc-ccwav/callback.php callback/
 cp nvjdc-ccwav/index.php callback/
 cp nvjdc-ccwav/callback.conf /etc/nginx/conf.d/
-cp nvjdc-ccwav/CK_WxPusherUid.json scripts/ccwav_QLScript2/
-chmod 777 scripts/ccwav_QLScript2/CK_WxPusherUid.json
+cp nvjdc-ccwav/CK_WxPusherUid.json scripts/
+chmod 777 scripts/CK_WxPusherUid.json
 
 echo "部署完成，请退出容器重启青龙和Nolan容器(docker restart qinglong)"
 exit
