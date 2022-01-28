@@ -1,3 +1,8 @@
+2020/01/28
+更新pin匹配规则
+同步wxuid文件路径
+
+
 #一个用来自动绑定wxpusher uid和京东pt_pin的php文件
 
 
