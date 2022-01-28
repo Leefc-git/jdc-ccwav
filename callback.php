@@ -26,7 +26,7 @@ foreach($data as $value) {
       }
     }
     //CK_WxPusherUid.json文件
-    $origin = json_decode(file_get_contents('/ql/scripts/ccwav_QLScript2/CK_WxPusherUid.json'), true);//wxck路径
+    $origin = json_decode(file_get_contents('/ql/scripts/CK_WxPusherUid.json'), true);//wxck路径
     
     function deep_in_array($value, $array) {
       foreach($array as $item) {
@@ -54,7 +54,7 @@ foreach($data as $value) {
         'Uid' => $value['uid'],
       );
       $wx_json = json_encode($origin);             
-      file_put_contents('/ql/scripts/ccwav_QLScript2/CK_WxPusherUid.json', $wx_json);
+      file_put_contents('/ql/scripts/CK_WxPusherUid.json', $wx_json);
     }
   }
 }
